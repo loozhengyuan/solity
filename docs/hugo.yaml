@@ -1,0 +1,35 @@
+---
+title: Solity
+theme: hextra
+menu:
+  main:
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/loozhengyuan/solity"
+      params:
+        icon: github
+enableGitInfo: true
+params:
+  # Set the content width to wide
+  page:
+    width: wide
+  # Enable search functionality
+  search:
+    enable: true
+    type: flexsearch
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Display edit link
+  editURL:
+    enable: true
+    base: "https://github.com/loozhengyuan/solity/edit/main/docs/content"
+markup:
+  goldmark:
+    renderer:
+      # NOTE: Required to support newlines in Markdown table cells
+      unsafe: true
