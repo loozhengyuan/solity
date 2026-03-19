@@ -1,5 +1,7 @@
 # `solity`
 
+[![ci](https://github.com/loozhengyuan/solity/actions/workflows/ci.yml/badge.svg)](https://github.com/loozhengyuan/solity/actions/workflows/ci.yml)
+
 SDK for Solity Smart Lock.
 
 ## Development
