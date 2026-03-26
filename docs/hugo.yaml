@@ -4,11 +4,9 @@ theme: hextra
 menu:
   main:
     - name: Search
-      weight: 4
       params:
         type: search
     - name: GitHub
-      weight: 5
       url: "https://github.com/loozhengyuan/solity"
       params:
         icon: github
