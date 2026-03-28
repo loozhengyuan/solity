@@ -3,6 +3,8 @@ title: Solity
 theme: hextra
 menu:
   main:
+    - name: Documentation
+      pageRef: /docs
     - name: Search
       params:
         type: search
