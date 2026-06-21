@@ -15,14 +15,14 @@ The Door Lock and Module communicates over UART using the following parameters:
 Each UART transmission follows a specified frame format:
 
 ```
-SYNC | START | LEN | CMD | DATA | CHECKSUM
+SYNC | START | LEN | CMD | PAYLOAD | CHECKSUM
 ```
 
-Both Door Lock and Module uses the same frame format but with **different sync bit**.
+Both Door Lock and Module use the same frame format but with a **different SYNC value**.
 
 | Field    | Description                                     |
 | -------- | ----------------------------------------------- |
-| SYNC     | Door Lock - `0xFF 0xFF 0xFF`<br>Module - `0xFF` |
+| SYNC     | Module - `0xFF 0xFF 0xFF`<br>Door Lock - `0xFF` |
 | START    | Constant - `0x48`                               |
 | LEN      | Length of `CMD` + `PAYLOAD`                     |
 | CMD      | Command ID                                      |

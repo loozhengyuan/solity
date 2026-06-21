@@ -9,7 +9,7 @@ This packet is exclusively emitted by the Door Lock in response to the [`0x5A`](
 
 | Byte | Description | Values |
 | ---- | ----------- | ------ |
-| 1    | Packet ID   | `0xDA` |
+| 1    | Command ID  | `0xDA` |
 | 2    | Unknown     | `0x02` |
 | 3    | Unknown     | `0x00` |
 | 4    | Unknown     | `0x00` |
